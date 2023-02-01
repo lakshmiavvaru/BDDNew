@@ -6,11 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = ".//Features/Login.feature",
+		features = ".//Features/Customers.feature",
 		glue="StepDefinitions",
 		dryRun = false,
 		monochrome = true,
-		plugin = {"pretty","html:target/Cucumber_Reports/reports1.html"}
+		plugin = {"pretty","html:target/Cucumber_Reports/reports2.html"}
 		)
 public class Run {
 //this classs will be empty. write anything outside the claass
